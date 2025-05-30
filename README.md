@@ -41,11 +41,11 @@ __Overview of DeepPathMetabol architecture__. (a) Tissue sections are subjected 
 ## Input
 To utilize the DeepPathMetabol model, you need to prepare the following inputs based on the mode you choose:
 
-(1) For Dpm_Alignment (H&E-MSI registration): (a) img_path: Path to the H&E-stained image file of the tissue section. (b) msi_path: Path to the MSI data file corresponding to the tissue section. (c) cut_threshold: Threshold value for image processing (default: 220).
+(Step 1) For Dpm_Alignment (H&E-MSI registration): (a) img_path: Path to the H&E-stained image file of the tissue section. (b) msi_path: Path to the MSI data file corresponding to the tissue section. (c) cut_threshold: Threshold value for image processing (default: 220).
 
-(2) For Dpm_Transport (MSI prediction for adjacent slices): (a) h5ad_path: Path to the h5ad file containing the spatial transcriptomics data obtained from Dpm_Alignment. (b) image_path: Path to the H&E-stained image file of the adjacent tissue slice for which MSI data is to be predicted.
+(Step 2) For Dpm_Transport (MSI prediction for adjacent slices): (a) h5ad_path: Path to the h5ad file containing the spatial transcriptomics data obtained from Dpm_Alignment. (b) image_path: Path to the H&E-stained image file of the adjacent tissue slice for which MSI data is to be predicted.
 
-(3) For running both Dpm_Alignment and Dpm_Transport sequentially (All mode): (a) img_path: Path to the source H&E-stained image file used for alignment. (b) image_path: Path to the target H&E-stained image file for which MSI data is to be predicted. (c) msi_path: Path to the MSI data file corresponding to the source tissue section.
+(Step 1&2) For running both Dpm_Alignment and Dpm_Transport sequentially (All mode): (a) img_path: Path to the source H&E-stained image file used for alignment. (b) image_path: Path to the target H&E-stained image file for which MSI data is to be predicted. (c) msi_path: Path to the MSI data file corresponding to the source tissue section.
 
 ## Run DeepPathMetabol model
 cd to the DeepPathMetabol fold
