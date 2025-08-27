@@ -1,4 +1,4 @@
-<img width="7019" height="4828" alt="932469b91c1b082f27d8f6318fce2fd9" src="https://github.com/user-attachments/assets/4783e2c9-52c3-46c4-8f1c-f4d631b57b80" /># DeepPathMetabol
+DeepPathMetabol
 DeepPathMetabol (DPM) is a deep learning based method using H&E stain info and optimal transport theory to predict metabolite distributions and reconstruct high-resolution MSI data from small-sample inputs for cost-efficient, high-precision spatial metabolomics research.
 Developer is Bo Yao from School of Life Sciences, Xiamen University, Xiamen, Fujian 361102, China.
 
