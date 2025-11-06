@@ -4,7 +4,8 @@ from Dpm_hepredictor import *
 from Alignment_tools import *
 from Dpm_alignment import *
 from utils import *
-
+import warnings
+warnings.filterwarnings("ignore")
 
 def Dpm_ot(adataA, img_path, n, spot_size=10, poslist=False, cut=True, threshold=0.95, cut_threshold=240,coor_key="predict",use_rep='spatial'):
     print("Starting image processing...")
@@ -200,3 +201,4 @@ def Dpm_ot_val(adataA, adataB,spot_diameter=None,alpha=0.1):
 
     print("Function execution completed. Returning results...")
     return adataA, adataB
+
